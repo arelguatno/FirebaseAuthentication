@@ -1,4 +1,4 @@
-package com.arel.aguatno.firebaseauthentication;
+package com.arel.dps.firebaseauthentication;
 
 import android.content.Intent;
 import android.os.Bundle;

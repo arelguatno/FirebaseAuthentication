@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.arel.aguatno.firebaseauthentication;
+package com.arel.dps.firebaseauthentication;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;

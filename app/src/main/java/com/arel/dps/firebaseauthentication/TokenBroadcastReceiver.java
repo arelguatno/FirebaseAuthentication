@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.arel.aguatno.firebaseauthentication;
+package com.arel.dps.firebaseauthentication;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
