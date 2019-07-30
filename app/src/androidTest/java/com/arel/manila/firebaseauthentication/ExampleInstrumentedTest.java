@@ -1,4 +1,4 @@
-package com.arel.dps.firebaseauthentication;
+package com.arel.manila.firebaseauthentication;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

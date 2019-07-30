@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.arel.dps.firebaseauthentication">
+    package="com.arel.manila.firebaseauthentication">
 
     <uses-permission android:name="android.permission.INTERNET"/>
 
@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.arel.dps.firebaseauthentication.ChooserActivity">
+        <activity android:name="com.arel.manila.firebaseauthentication.ChooserActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,20 +20,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.arel.dps.firebaseauthentication.CustomAuthActivity"
+            android:name="com.arel.manila.firebaseauthentication.CustomAuthActivity"
             android:label="@string/label_custom_auth" />
         <activity
-            android:name="com.arel.dps.firebaseauthentication.GoogleSignInActivity"
+            android:name="com.arel.manila.firebaseauthentication.GoogleSignInActivity"
             android:label="@string/label_google_sign_in" />
         <activity
-            android:name="com.arel.dps.firebaseauthentication.FacebookLoginActivity"
+            android:name="com.arel.manila.firebaseauthentication.FacebookLoginActivity"
             android:label="@string/label_facebook_login" />
         <activity
-            android:name="com.arel.dps.firebaseauthentication.EmailPasswordActivity"
+            android:name="com.arel.manila.firebaseauthentication.EmailPasswordActivity"
             android:label="@string/label_emailpassword"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="com.arel.dps.firebaseauthentication.PasswordlessActivity"
+            android:name="com.arel.manila.firebaseauthentication.PasswordlessActivity"
             android:label="@string/label_passwordless"
             android:launchMode="singleTop">
             <intent-filter>
@@ -46,20 +46,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.arel.dps.firebaseauthentication.PhoneAuthActivity"
+            android:name="com.arel.manila.firebaseauthentication.PhoneAuthActivity"
             android:label="@string/label_phone_auth"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name="com.arel.dps.firebaseauthentication.AnonymousAuthActivity"
+            android:name="com.arel.manila.firebaseauthentication.AnonymousAuthActivity"
             android:label="@string/label_anonymous_auth" />
         <activity
-            android:name="com.arel.dps.firebaseauthentication.TwitterLoginActivity"
+            android:name="com.arel.manila.firebaseauthentication.TwitterLoginActivity"
             android:label="@string/label_twitter_login" />
         <activity
-            android:name="com.arel.dps.firebaseauthentication.FirebaseUIActivity"
+            android:name="com.arel.manila.firebaseauthentication.FirebaseUIActivity"
             android:label="@string/label_firebase_ui" />
         <activity
-            android:name="com.arel.dps.firebaseauthentication.GenericIdpActivity"
+            android:name="com.arel.manila.firebaseauthentication.GenericIdpActivity"
             android:label="@string/label_generic_idp" />
 
 

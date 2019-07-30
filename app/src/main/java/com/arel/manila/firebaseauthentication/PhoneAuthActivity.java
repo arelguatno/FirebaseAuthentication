@@ -1,4 +1,4 @@
-package com.arel.dps.firebaseauthentication;
+package com.arel.manila.firebaseauthentication;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -146,6 +146,7 @@ public class PhoneAuthActivity extends AppCompatActivity implements
 
                 // Show a message and update the UI
                 // [START_EXCLUDE]
+                mDetailText.setText(e.getLocalizedMessage());
                 updateUI(STATE_VERIFY_FAILED);
                 // [END_EXCLUDE]
             }
@@ -309,7 +310,7 @@ public class PhoneAuthActivity extends AppCompatActivity implements
                 // Verification has failed, show all options
                 enableViews(mStartButton, mVerifyButton, mResendButton, mPhoneNumberField,
                         mVerificationField);
-                mDetailText.setText(R.string.status_verification_failed);
+               // mDetailText.setText(R.string.status_verification_failed);
                 break;
             case STATE_VERIFY_SUCCESS:
                 // Verification has succeeded, proceed to firebase sign in
